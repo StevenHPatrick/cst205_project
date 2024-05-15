@@ -370,14 +370,14 @@ class Window(QMainWindow):
             self.update_status("Failed to add text.")
 
     def create_spiral_toolbar(self):
-        self.create_toolbar_tool("Spiral", self.apply_spiral_effect)
+        self.create_toolbar_tool("Spiral", self.apply_spiral_effect) # Spiral button
     
     def apply_spiral_effect(self):
         if not self.spiral_effect_enabled:
             self.spiral_timer.timeout.connect(self.spiral_image)
             self.spiral_timer.start(.1)  # Change the delay as needed to control the speed of the effect
             self.spiral_effect_enabled = True
-            self.update_status("Spiraling")
+            self.update_status("Spiraling") # Status to make sure spiraling is in effect
         else:
             self.spiral_timer.stop()
             self.spiral_effect_enabled = False
@@ -390,9 +390,9 @@ class Window(QMainWindow):
             spiral_image = QPixmap(width, height)
             spiral_image.fill(Qt.transparent)
             painter = QPainter(spiral_image)
-            center_x, center_y = width / 2, height / 2
+            center_x, center_y = width / 2, height / 2 # Adjusts the area of spril
             for y in range(height):
-                for x in range(width):
+                for x in range(width): # This function creates the spiral using the math import
                     angle = (x - center_x + y - center_y) * spiral_factor
                     new_x = int(center_x + (x - center_x) * cos(angle) - (y - center_y) * sin(angle))
                     new_y = int(center_y + (x - center_x) * sin(angle) + (y - center_y) * cos(angle))
