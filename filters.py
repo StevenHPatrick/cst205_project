@@ -1,3 +1,10 @@
+"""
+Title: filters.py
+Abstract: Functions for the filters menu
+Author: Ashley Joy Jaramillo
+Date: May 15, 2024
+"""
+
 import cv2
 import numpy as np
 from PySide6.QtGui import QPixmap, QImage, QColor

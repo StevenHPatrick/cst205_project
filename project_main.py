@@ -1,3 +1,11 @@
+"""
+Course: CST205-01 Multimedia Design and Programming
+Title: project_main.py
+Abstract:
+Authors: Adrian Martinez, Ashley Joy Jaramillo, Randy Rodriguez, Steven Patrick
+Date: May 15, 2024
+"""
+
 import sys
 
 from PySide6.QtWidgets import (
