@@ -1,7 +1,7 @@
 """
 Course: CST205-01 Multimedia Design and Programming
 Title: project_main.py
-Abstract:
+Abstract: This program is a basic image manipulator. It is able to crop, apply filters, and spiral your images to oblivion. 
 Authors: Adrian Martinez, Ashley Joy Jaramillo, Randy Rodriguez, Steven Patrick
 Date: May 15, 2024
 """

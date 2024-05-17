@@ -1,6 +1,3 @@
-This project requires the installation of the cv2 module. Use this command while in the cst205 environment:\
-    pip install opencv-python
-
 Name of project: Basic Image Manipulator\
 Names of team members: Adrian Martinez, Ashley Joy Jaramillo, Randy Rodriguez, Steven Patrick\
 Class: CST 205 - Section 01\
